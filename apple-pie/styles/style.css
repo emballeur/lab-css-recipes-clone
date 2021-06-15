@@ -1,0 +1,77 @@
+@import url("https://fonts.googleapis.com/css?family=Open+Sans?");
+
+html {
+    font-size: 16px;
+    font-family: "Open Sans", sans-serif;
+    height: 500px;
+
+}
+
+
+body {
+font-size: 16px;
+height: 500px;
+width: 70%;
+background-image: url("images/apple-pie.jpg");
+background-position: center;
+background-size: cover;
+line-height: normal;
+text-align: center;
+list-style-position: inside;
+}
+
+
+.hero {
+    background-image: url("images/apple-pie.jpg"); /* The image used */
+    background-color: #cccccc; /* Used if the image is unavailable */
+    height: 500px; /* You must set a specified height */
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover; /* Resize the background image to cover the entire container */
+  }
+
+.div {
+    border-style: 5px solid;
+  }
+
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Open Sans";
+}
+
+h1 {
+  font-size: 64px;
+  text-align: center;
+  text-transform: capitalize;
+}
+
+h2 {
+  font-size: 32px;
+  text-align: center;
+  text-transform: capitalize;
+  line-height: 4em;
+}
+
+h3 {
+  font-size: 16px;
+  text-align: center;
+  line-height: 1em;
+}
+
+h4 {
+  font-size: 16px;
+  letter-spacing: 0.4px;
+  line-height: 1em;
+}
+
+h5 {
+  font-size: 16px;
+  line-height: 1em;
+}
+
+
